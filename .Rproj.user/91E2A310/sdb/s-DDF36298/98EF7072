@@ -1,12 +1,12 @@
 {
-    "contents" : " shinyUI(pageWithSidebar(\n     headerPanel(\"Relationship between stats of Hall of Fame caliber baseball players\"),\n     sidebarPanel(\n         h4(\"Select varaibles to plot:\"),\n         selectInput(\"var1\", \"X Variable:\",\n                            c( \"Games Played\" = \"games\",\n                               \"Home Runs\" = \"HR\", \n                               \"Strikeouts\" = \"SO\",\n                               \"Hits\" = \"hits\",\n                               \"Seasons\" = \"seasons\",\n                               \"Batting Average\" = \"BA\")),\n         selectInput(\"var2\", \"Y Variable:\",\n                     c( \"Games Played\" = \"games\",\n                        \"Home Runs\" = \"HR\", \n                        \"Strikeouts\" = \"SO\",\n                        \"Hits\" = \"hits\",\n                        \"Seasons\" = \"seasons\",\n                        \"Batting Average\" = \"BA\"))\n         ),\n     mainPanel(\n         plotOutput(\"plot\"),\n         h4(\"Documentation on how to use this app can be found in the README.md file on GitHub:\"),\n         a()\n         )\n     ))",
+    "contents" : " shinyUI(pageWithSidebar(\n     headerPanel(\"Relationship between stats of Hall of Fame caliber baseball players\"),\n     sidebarPanel(\n         h4(\"Select varaibles to plot:\"),\n         selectInput(\"var1\", \"X Variable:\",\n                            c( \"Games Played\" = \"games\",\n                               \"Home Runs\" = \"HR\", \n                               \"Strikeouts\" = \"SO\",\n                               \"Hits\" = \"hits\",\n                               \"Seasons\" = \"seasons\",\n                               \"Batting Average\" = \"BA\")),\n         selectInput(\"var2\", \"Y Variable:\",\n                     c( \"Games Played\" = \"games\",\n                        \"Home Runs\" = \"HR\", \n                        \"Strikeouts\" = \"SO\",\n                        \"Hits\" = \"hits\",\n                        \"Seasons\" = \"seasons\",\n                        \"Batting Average\" = \"BA\"))\n         ),\n     mainPanel(\n         plotOutput(\"plot\"),\n         h4(\"Documentation on how to use this app can be found in the README.md file on GitHub:\"),\n         a(\"https://github.com/alspur/devDataProducts/blob/master/README.md\")\n         )\n     ))",
     "created" : 1403544024300.000,
-    "dirty" : true,
+    "dirty" : false,
     "encoding" : "UTF-8",
     "folds" : "",
-    "hash" : "3318429152",
+    "hash" : "3279883104",
     "id" : "98EF7072",
-    "lastKnownWriteTime" : 1403561016,
+    "lastKnownWriteTime" : 1403561764,
     "path" : "~/Dropbox/devDataProducts/ui.R",
     "project_path" : "ui.R",
     "properties" : {

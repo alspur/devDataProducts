@@ -18,6 +18,8 @@
                         "Batting Average" = "BA"))
          ),
      mainPanel(
-         plotOutput("plot")
+         plotOutput("plot"),
+         h4("Documentation on how to use this app can be found in the README.md file on GitHub:"),
+         a("https://github.com/alspur/devDataProducts/blob/master/README.md")
          )
      ))

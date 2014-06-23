@@ -1,0 +1,16 @@
+{
+    "contents" : "# README.md\n\n## About\n\nThis application was built for the Coursera/Johns Hopkins course on Developing Data Products.\n\n## How to use this application\n\n1. Select two variables from the dropdown menus on the left sidebar. \n2. A scatterplot will appear on the main panel, along with a LOESS regression line.\n3. Repeat!\n",
+    "created" : 1403561785761.000,
+    "dirty" : false,
+    "encoding" : "UTF-8",
+    "folds" : "",
+    "hash" : "216776812",
+    "id" : "32628540",
+    "lastKnownWriteTime" : 1403561939,
+    "path" : "~/Dropbox/devDataProducts/README.md",
+    "project_path" : "README.md",
+    "properties" : {
+    },
+    "source_on_save" : false,
+    "type" : "markdown"
+}
