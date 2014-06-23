@@ -1,0 +1,17 @@
+{
+    "contents" : " library(shiny)\n library(UsingR)\n library(ggplot2)\n \n data(hall.fame)\n \n shinyServer(function(input, output, session){\n     \n     baseballData <- reactive({\n         hall.fame[, c(input$var1, input$var2)]\n     })\n     \n     \n     output$plot <- renderPlot({\n         p <- ggplot(baseballData(), aes_string(x=input$var1, y = input$var2))+\n             geom_point()+\n             geom_smooth()\n         \n         print(p)\n     })\n     \n     })",
+    "created" : 1403546256976.000,
+    "dirty" : false,
+    "encoding" : "UTF-8",
+    "folds" : "",
+    "hash" : "358635192",
+    "id" : "42154DED",
+    "lastKnownWriteTime" : 1403560931,
+    "path" : "~/Dropbox/devDataProducts/server.R",
+    "project_path" : "server.R",
+    "properties" : {
+        "tempName" : "Untitled1"
+    },
+    "source_on_save" : false,
+    "type" : "r_source"
+}
